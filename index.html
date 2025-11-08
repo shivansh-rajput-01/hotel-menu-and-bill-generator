@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg" style="background-color: #f5880b" data-bs-theme="light">
+        <!-- Navbar content -->
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo" style="height: 50px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#sec1">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#billsec">Bill</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li> -->
+                </ul>
+                <!-- <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+            </div>
+        </div>
+    </nav>
+    <div class="img">
+        <p class="big wh">Welcome to Pahadi Foods</p>
+    </div>
+    <section>
+        <div class="foods" id="sec1">
+            <div class="container fl">
+                <div class="card c-1">
+                    <div class="foodImg f1"></div>
+                    <div class="description">
+                        <div class="name">Kafuli (Kafal)</div>
+                        <div class="details">
+                            <div class="first">
+                                <p>Description</p>
+                                <p>Price: ₹120</p>
+                            </div>
+                            <div class="des">A traditional Pahadi curry made from spinach and fenugreek leaves,
+                                slow-cooked with local spices and served with rice or roti.</div>
+                        </div>
+                        <div class="tradition">
+                            <div class="first">Tradition</div>
+                            <div class="des">Kafuli is traditionally cooked in every Pahadi household during winters and
+                                festive gatherings like Makar Sankranti or Basant Panchami. It represents health,
+                                warmth, and the importance of green vegetables in mountain life.</div>
+                        </div>
+                        <button class="kafuli" id="add">Add to Thali</button>
+                    </div>
+                </div>
+                <div class="card c-2">
+                    <div class="foodImg f2"></div>
+                    <div class="description">
+                        <div class="name">Phanu</div>
+                        <div class="details">
+                            <div class="first">
+                                <p>Description</p>
+                                <p>Price: ₹130</p>
+                            </div>
+                            <div class="des">A protein-rich lentil curry made by slow-cooking soaked lentils like gahat
+                                or arhar, seasoned with traditional Pahadi spices for a hearty flavor.</div>
+                        </div>
+                        <div class="tradition">
+                            <div class="first">Tradition</div>
+                            <div class="des">Phanu is a staple dish of Uttarakhand’s Garhwal region, prepared mainly
+                                during winters and festive family meals. It reflects the mountain tradition of using
+                                locally grown pulses to create healthy, warming food for the cold climate.</div>
+                        </div>
+                        <button class="phanu" id="add">Add to Thali</button>
+                    </div>
+
+                </div>
+                <div class="card c-3">
+                    <div class="foodImg f3"></div>
+                    <div class="description">
+                        <div class="name">Chainsoo</div>
+                        <div class="details">
+                            <div class="first">
+                                <p>Description</p>
+                                <p>Price: ₹140</p>
+                            </div>
+                            <div class="des">A thick and flavorful curry made from roasted black gram (urad dal), ground
+                                and slow-cooked with mountain spices for a rich, smoky taste.</div>
+                        </div>
+                        <div class="tradition">
+                            <div class="first">Tradition</div>
+                            <div class="des">Chainsoo is a beloved Garhwali dish, often cooked during winter months for
+                                its warmth and high protein value. Traditionally prepared in an iron pot, it reflects
+                                the rustic cooking style and nutritional wisdom of Pahadi households.</div>
+                        </div>
+                        <button class="chainsoo" id="add">Add to Thali</button>
+                    </div>
+
+                </div>
+                <div class="card c-4">
+                    <div class="foodImg f4"></div>
+                    <div class="description">
+                        <div class="name">Aloo Ke Gutke</div>
+                        <div class="details">
+                            <div class="first">
+                                <p>Description</p>
+                                <p>Price: ₹110</p>
+                            </div>
+                            <div class="des">Crispy, spiced potato chunks stir-fried with local herbs and red chilies,
+                                offering a simple yet bold Pahadi flavor.</div>
+                        </div>
+                        <div class="tradition">
+                            <div class="first">Tradition</div>
+                            <div class="des">Aloo Ke Gutke is a popular household and festive dish in the Kumaon and
+                                Garhwal regions. It is often served as prasad during village fairs and religious
+                                gatherings, usually paired with puri or bhang ki chutney.</div>
+                        </div>
+                        <button class="aloo" id="add">Add to Thali</button>
+                    </div>
+
+                </div>
+                <div class="card c-5">
+                    <div class="foodImg f5"></div>
+                    <div class="description">
+                        <div class="name">Jhangore Ki Khichdi</div>
+                        <div class="details">
+                            <div class="first">
+                                <p>Description</p>
+                                <p>Price: ₹125</p>
+                            </div>
+                            <div class="des">A light and nutritious Pahadi dish made from barnyard millet (jhangora),
+                                cooked with ghee, mild spices, and sometimes curd for a wholesome flavor.</div>
+                        </div>
+                        <div class="tradition">
+                            <div class="first">Tradition</div>
+                            <div class="des">Jhangore Ki Khichdi is commonly prepared during fasting days and festive
+                                occasions like Navratri in Uttarakhand. Its cooling and easily digestible nature makes
+                                it a cherished dish in mountain households.</div>
+                        </div>
+                        <button class="jhangore" id="add">Add to Thali</button>
+                    </div>
+
+                </div>
+                <div class="card c-6">
+                    <div class="foodImg f6"></div>
+                    <div class="description">
+                        <div class="name">Mandua Ki Roti</div>
+                        <div class="details">
+                            <div class="first">
+                                <p>Description</p>
+                                <p>Price: ₹100</p>
+                            </div>
+                            <div class="des">A wholesome flatbread made from finger millet (ragi) flour, served with
+                                ghee, chutney, or traditional dal for a rustic and earthy flavor.</div>
+                        </div>
+                        <div class="tradition">
+                            <div class="first">Tradition</div>
+                            <div class="des">Mandua Ki Roti is a daily staple in many Pahadi homes, especially during
+                                winters. It is valued for its warmth and nutritional richness, symbolizing the mountain
+                                people's deep connection with millet-based farming and healthy living.</div>
+                        </div>
+                        <button class="mandua" id="add">Add to Thali</button>
+                    </div>
+
+                </div>
+                <div class="card c-7">
+                    <div class="foodImg f7"></div>
+                    <div class="description">
+                        <div class="name">Bhaang Ki Chutney</div>
+                        <div class="details">
+                            <div class="first">
+                                <p>Description</p>
+                                <p>Price: ₹80</p>
+                            </div>
+                            <div class="des">A tangy and nutty chutney made from roasted hemp seeds, green chilies, and
+                                lemon juice, adding a bold and smoky flavor to Pahadi meals.</div>
+                        </div>
+                        <div class="tradition">
+                            <div class="first">Tradition</div>
+                            <div class="des">Bhaang Ki Chutney is a traditional side dish served with almost every meal
+                                in Uttarakhand. It reflects the mountain community’s sustainable cooking style, using
+                                locally available hemp seeds to enhance both flavor and nutrition.</div>
+                        </div>
+                        <button class="bhaang" id="add">Add to Thali</button>
+                    </div>
+
+                </div>
+                <div class="card c-8">
+                    <div class="foodImg f8"></div>
+                    <div class="description">
+                        <div class="name">Dubuk</div>
+                        <div class="details">
+                            <div class="first">
+                                <p>Description</p>
+                                <p>Price: ₹130</p>
+                            </div>
+                            <div class="des">A comforting, thick curry made by slow-cooking ground lentils like gahat or
+                                bhatt, giving it a smooth texture and rich, earthy flavor.</div>
+                        </div>
+                        <div class="tradition">
+                            <div class="first">Tradition</div>
+                            <div class="des">Dubuk is a winter-special dish in the Kumaon and Garhwal regions, prepared
+                                in an iron pot to retain warmth and nutrients. It is considered a soul-soothing meal,
+                                symbolizing simplicity and nourishment in traditional mountain cuisine.</div>
+                        </div>
+                        <button class="dubuk" id="add">Add to Thali</button>
+                    </div>
+
+                </div>
+                <div class="card c-9">
+                    <div class="foodImg f9"></div>
+                    <div class="description">
+                        <div class="name">Gahat Ki Dal</div>
+                        <div class="details">
+                            <div class="first">
+                                <p>Description</p>
+                                <p>Price: ₹120</p>
+                            </div>
+                            <div class="des">A nutritious lentil curry made from horse gram, cooked with local spices
+                                and ghee, offering a hearty and rustic Pahadi flavor.</div>
+                        </div>
+                        <div class="tradition">
+                            <div class="first">Tradition</div>
+                            <div class="des">Gahat Ki Dal is a traditional winter dish of Uttarakhand, known for its
+                                warming effect and high protein value. It’s often eaten during cold months to boost
+                                energy and is also believed to help prevent kidney stones, making it both delicious and
+                                medicinal.</div>
+                        </div>
+                        <button class="gahat" id="add">Add to Thali</button>
+                    </div>
+
+                </div>
+
+                <div class="card c-10">
+                    <div class="foodImg f10"></div>
+                    <div class="description">
+                        <div class="name">Chapati</div>
+                        <div class="details">
+                            <div class="first">
+                                <p>Description</p>
+                                <p>Price: ₹30 (2 pcs)</p>
+                            </div>
+                            <div class="des">Soft whole wheat flatbreads cooked on a tawa, served hot with ghee or curry
+                                — a staple accompaniment in every Pahadi meal.</div>
+                        </div>
+                        <button class="chapati" id="add">Add to Thali</button>
+                    </div>
+                </div>
+
+                <div class="card c-11">
+                    <div class="foodImg f11"></div>
+                    <div class="description">
+                        <div class="name">Steamed Rice</div>
+                        <div class="details">
+                            <div class="first">
+                                <p>Description</p>
+                                <p>Price: ₹80</p>
+                            </div>
+                            <div class="des">Fluffy steamed rice made from locally grown grains, perfect to pair with
+                                Kafuli, Gahat ki Dal, or any Pahadi curry.</div>
+                        </div>
+                        <button class="rice" id="add">Add to Thali</button>
+                    </div>
+                </div>
+
+                <div class="card c-12">
+                    <div class="foodImg f12"></div>
+                    <div class="description">
+                        <div class="name">Bal Mithai</div>
+                        <div class="details">
+                            <div class="first">
+                                <p>Description</p>
+                                <p>Price: ₹100 (per plate)</p>
+                            </div>
+                            <div class="des">A famous sweet from Almora made with roasted khoya and coated with sugar
+                                balls. Its chewy texture and caramelized taste make it a true delight.</div>
+                        </div>
+                        <div class="tradition">
+                            <div class="first">Tradition</div>
+                            <div class="des">Bal Mithai is considered the pride of Kumaon and is often gifted during
+                                weddings and festivals like Diwali and Holi.</div>
+                        </div>
+                        <button class="balmithai" id="add">Add to Thali</button>
+                    </div>
+                </div>
+
+                <div class="card c-13">
+                    <div class="foodImg f13"></div>
+                    <div class="description">
+                        <div class="name">Singori</div>
+                        <div class="details">
+                            <div class="first">
+                                <p>Description</p>
+                                <p>Price: ₹90 (2 pcs)</p>
+                            </div>
+                            <div class="des">A cone-shaped sweet made from khoya and wrapped in a fragrant Malu leaf,
+                                giving it a distinct aroma and rich taste.</div>
+                        </div>
+                        <div class="tradition">
+                            <div class="first">Tradition</div>
+                            <div class="des">Singori is traditionally made during Kumaoni festivals and served as prasad
+                                in temples, symbolizing purity and sweetness.</div>
+                        </div>
+                        <button class="singori" id="add">Add to Thali</button>
+                    </div>
+                </div>
+
+                <div class="card c-14">
+                    <div class="foodImg f14"></div>
+                    <div class="description">
+                        <div class="name">Jhangora Ki Kheer</div>
+                        <div class="details">
+                            <div class="first">
+                                <p>Description</p>
+                                <p>Price: ₹110</p>
+                            </div>
+                            <div class="des">A creamy dessert made from Jhangora (barnyard millet), milk, and dry
+                                fruits. Rich in taste and nutrition, it’s a must-have Pahadi sweet.</div>
+                        </div>
+                        <div class="tradition">
+                            <div class="first">Tradition</div>
+                            <div class="des">This kheer is commonly prepared during festivals like Janmashtami and
+                                traditional family feasts in the hills.</div>
+                        </div>
+                        <button class="jhangora" id="add">Add to Thali</button>
+                    </div>
+                </div>
+
+                <div class="card c-15">
+                    <div class="foodImg f15"></div>
+                    <div class="description">
+                        <div class="name">Arsa</div>
+                        <div class="details">
+                            <div class="first">
+                                <p>Description</p>
+                                <p>Price: ₹100 (per plate)</p>
+                            </div>
+                            <div class="des">A traditional sweet made from rice flour, jaggery, and mustard oil,
+                                deep-fried until golden brown and crisp.</div>
+                        </div>
+                        <div class="tradition">
+                            <div class="first">Tradition</div>
+                            <div class="des">Arsa holds cultural significance in Uttarakhand and is made on auspicious
+                                occasions like weddings and housewarming ceremonies.</div>
+                        </div>
+                        <button class="arsa" id="add">Add to Thali</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <div class="billContainer" id="billsec">
+        <button id="bill">Confirm Thali</button>
+        <div class="bill hide1">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Food Item</th>
+                        <th>Quantity</th>
+                        <th>Unit price</th>
+                        <th>Total Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="hide" id="r1">
+                        <td>Kafuli (Kafal)</td>
+                        <td>0</td>
+                        <td>₹120</td>
+                        <td>0</td>
+                    </tr>
+                    <tr class="hide" id="r2">
+                        <td>Phanu</td>
+                        <td>0</td>
+                        <td>₹130</td>
+                        <td>0</td>
+                    </tr>
+                    <tr class="hide" id="r3">
+                        <td>Chainsoo</td>
+                        <td>0</td>
+                        <td>₹140</td>
+                        <td>0</td>
+                    </tr>
+                    <tr class="hide" id="r4">
+                        <td>Aloo Ke Gutke</td>
+                        <td>0</td>
+                        <td>₹110</td>
+                        <td>0</td>
+                    </tr>
+                    <tr class="hide" id="r5">
+                        <td>Jhangore Ki Khichdi</td>
+                        <td>0</td>
+                        <td>₹125</td>
+                        <td>0</td>
+                    </tr>
+                    <tr class="hide" id="r6">
+                        <td>Mandua Ki Roti</td>
+                        <td>0</td>
+                        <td>₹100</td>
+                        <td>0</td>
+                    </tr>
+                    <tr class="hide" id="r7">
+                        <td>Bhaang Ki Chutney</td>
+                        <td>0</td>
+                        <td>₹80</td>
+                        <td>0</td>
+                    </tr>
+                    <tr class="hide" id="r8">
+                        <td>Dubuk</td>
+                        <td>0</td>
+                        <td>₹130</td>
+                        <td>0</td>
+                    </tr>
+                    <tr class="hide" id="r9">
+                        <td>Gahat (Kulath) Ki Dal</td>
+                        <td>0</td>
+                        <td>₹120</td>
+                        <td>0</td>
+                    </tr>
+                    <tr class="hide" id="r10">
+                        <td>Chapati</td>
+                        <td>0</td>
+                        <td>₹30</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr class="hide" id="r11">
+                        <td>Steamed Rice</td>
+                        <td>0</td>
+                        <td>₹80</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr class="hide" id="r12">
+                        <td>Bal Mithai</td>
+                        <td>0</td>
+                        <td>₹100</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr class="hide" id="r13">
+                        <td>Singori</td>
+                        <td>0</td>
+                        <td>₹90</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr class="hide" id="r14">
+                        <td>Jhangora Ki Kheer</td>
+                        <td>0</td>
+                        <td>₹110</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr class="hide" id="r15">
+                        <td>Arsa</td>
+                        <td>0</td>
+                        <td>₹100</td>
+                        <td>0</td>
+                    </tr>
+
+
+                </tbody>
+            </table>
+            <hr>
+            <div class="amountrow">
+                <div>Total Amount:</div>
+                <div class="amount">₹0</div>
+            </div>
+            <div class="gstrow">
+                <div>Total gst 18%:</div>
+                <div class="amount">₹0</div>
+            </div>
+            <div class="servicerow">
+                <div>Total service charge:</div>
+                <div class="amount">₹0</div>
+            </div>
+            <div class="payrow">
+                <div>Total amount payable:</div>
+                <div class="amount">₹0</div>
+            </div>
+        </div>
+    </div>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>
+                At <strong>Pahadi Foods</strong>, we bring the heart of Uttarakhand’s mountains to your plate.
+                Our dishes are inspired by age-old recipes passed down through generations —
+                simple, earthy, and full of love. We believe food is not just about taste,
+                but about stories, memories, and the warmth of the hills.
+            </p>
+            <p>
+                Every ingredient we use is carefully chosen to preserve authenticity.
+                Whether it’s <em>Kafuli</em>, <em>Phanu</em>, or <em>Bhaang ki Chutney</em>,
+                we aim to make you feel the mountain breeze in every bite!
+            </p>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>We’d love to hear from you! Reach out with feedback, suggestions, or just to say hello 🌿</p>
+
+            <form class="contact-form">
+                <div class="input-group">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>Pahadi Foods</h3>
+                <p>Bringing the authentic taste of Uttarakhand to your plate. Every dish carries the warmth of the hills
+                    and the love of our traditions.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#sec1">Menu</a></li>
+                    <li><a href="#billsec">Bill</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <p>Email: <a href="mailto:info@pahadifoods.com">info@pahadifoods.com</a></p>
+                <p>Phone: +91 98765 43210</p>
+                <p>Location: Dehradun, Uttarakhand</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="footer-bottom">
+            <p>© 2025 Pahadi Foods | Made with &hearts; in the Hills</p>
+        </div>
+    </footer>
+    <div class="notificator hide">Added Item to your thali</div>
+
+    <!-- <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                
+            </div>
+            <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
