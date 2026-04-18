@@ -3,6 +3,7 @@
 A web-based application designed to streamline the ordering and billing process for hotels and restaurants. This tool allows users to select items from a digital menu and generate an automated bill instantly.
 
 ## Project URL
+```text
 https://hotel-menu-and-bill-generator.onrender.com
 
 ## Key Features
