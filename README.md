@@ -23,7 +23,7 @@ To run this project locally, follow these steps:
 2. Navigate to the project directory:
    `cd hotel-menu-and-bill-generator`
 
-3. Open project in browser
+3. Open index.html in browser
 
 ## Future Enhancements
 - Integration with MongoDB for persistent menu and order storage.
