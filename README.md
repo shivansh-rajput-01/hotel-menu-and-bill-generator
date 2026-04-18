@@ -4,7 +4,7 @@ A web-based application designed to streamline the ordering and billing process 
 
 ## Project URL
 ```text
-https://hotel-menu-and-bill-generator.onrender.com
+https://hotel-menu-and-bill-generator.onrender.com```
 
 ## Key Features
 - Dynamic Menu Selection: Users can browse through available dishes and items easily.
