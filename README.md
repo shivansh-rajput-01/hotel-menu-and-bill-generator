@@ -23,14 +23,7 @@ To run this project locally, follow these steps:
 2. Navigate to the project directory:
    `cd hotel-menu-and-bill-generator`
 
-3. Install dependencies:
-   `npm install`
-
-4. Start the application:
-   `npm start`
-
-5. Access in browser:
-   Open http://localhost:3000 to view the application.
+3. Open project in browser
 
 ## Future Enhancements
 - Integration with MongoDB for persistent menu and order storage.
