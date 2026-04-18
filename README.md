@@ -8,13 +8,10 @@ A web-based application designed to streamline the ordering and billing process 
 ## Key Features
 - **Dynamic Menu Selection:** Users can browse through available dishes and items easily.
 - **Real-time Calculation:** Automatically calculates the total amount based on selected items and quantities.
-- **Cart Management:** Flexibility to add or remove items before final bill generation.
 - **Responsive Interface:** Optimized for use across various devices including desktops, tablets, and smartphones.
-- **Print-Ready Billing:** Generates a clean format suitable for customer invoices.
 
 ## Technologies Used
-- **Frontend:** HTML5, CSS3, JavaScript
-- **Backend:** Node.js, Express.js
+- **Frontend:** HTML5, CSS3, JavaScript, Bootstrap
 - **Hosting:** Render
 
 ## Installation and Local Setup
